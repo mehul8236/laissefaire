@@ -1,0 +1,1062 @@
+<root><blocks><cms_block><title><![CDATA[Footer Links Company]]></title><identifier>footer_links_company</identifier><content><![CDATA[<div class="links">
+    <div class="block-title">
+        <strong><span>Company</span></strong>
+    </div>
+    <ul>
+        <li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+        <li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+        <li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+        <li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+    </ul>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Cookie restriction notice]]></title><identifier>cookie_restriction_notice_block</identifier><content><![CDATA[<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.
+</p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer]]></title><identifier>block_footer</identifier><content><![CDATA[<div class="block_footer">
+	{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_top"}}
+	{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_bottom"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Top]]></title><identifier>block_footer_top</identifier><content><![CDATA[<div class="block_footer_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-logo text-center">
+                    <a href="#" title="Bazien">
+                        <img src="{{media url="wysiwyg/bazien/logo-ft.png"}}" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="footer-about col-lg-12">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam arcu, placerat ut odio vel, <br>ultrices vehicula erat. Ut mauris diam, egestas nec lacus sit amet.
+                <ul class="footer-top-icon">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Bottom]]></title><identifier>block_footer_bottom</identifier><content><![CDATA[<div class="block_footer_bottom">
+	<div class="container">
+		<div class="row">
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_bottom_1"}}
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_bottom_2"}}
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_bottom_3"}}
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="block_footer_bottom_4"}}
+			</div>
+		</div>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Header Welcome]]></title><identifier>header_welcome</identifier><content><![CDATA[<p class="header-welcome">DEFAULT WELCOME MSG!
+</p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Newsletter]]></title><identifier>block_newsletter</identifier><content><![CDATA[<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 newsletter_style_1">
+					{{block type="newsletter/subscribe" name="home.newsletter" template="newsletter/subscribe-mini.phtml"}}
+				</div>
+			</div>
+		</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Bottom 1]]></title><identifier>block_footer_bottom_1</identifier><content><![CDATA[<div class="block block-shopping-guide">
+	<div class="block-title">
+		<span>Shopping guide</span>
+<div class="line-ft-1"></div>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">FAQs</a></li>
+			<li><a href="#">Payment</a></li>
+			<li><a href="#">Shipment</a></li>
+			<li><a href="#">Where is my oder?</a></li>
+                        <li><a href="#">Return policy</a></li>
+		</ul>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Bottom 2]]></title><identifier>block_footer_bottom_2</identifier><content><![CDATA[<div class="block block-style-advisor">
+	<div class="block-title">
+		<span>Style Advisor</span>
+<div class="line-ft-1"></div>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li><a href="#">Your Account</a></li>
+			<li><a href="#">Infomation</a></li>
+			<li><a href="#">Addresses</a></li>
+			<li><a href="#">Discount</a></li>
+			<li><a href="#">Orders History</a></li>
+                        <li><a href="#">Addtional Infomation</a></li>
+		</ul>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Bottom 3]]></title><identifier>block_footer_bottom_3</identifier><content><![CDATA[<div class="block block-infomation">
+	<div class="block-title">
+		<span>infomation</span>
+<div class="line-ft-1"></div>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li><a href="#">Site Map</a></li>
+			<li><a href="#">Search Terms</a></li>
+			<li><a href="#">Advanced Search</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Suppliers</a></li>
+                        <li><a href="#">Our stores</a></li>
+		</ul>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer Bottom 4]]></title><identifier>block_footer_bottom_4</identifier><content><![CDATA[<div class="block block-shop-location">
+	<div class="block-title">
+		<span>shop location</span>
+<div class="line-ft-1"></div>
+	</div>
+	<div class="block-content">
+		<p class="address-ft">1234 Heaven Stress, Beverly Hill OldYork- United State</p>
+                <p class="phone-ft">Phone: (800) 0123 4567 890</p>
+                <p class="email-ft">Email: Support1@novaworks.com</p>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Paypal Footer]]></title><identifier>block_paypal_footer</identifier><content><![CDATA[<ul class="paypal-ft">
+    <li><a href="#"><img src="{{media url="wysiwyg/paypal/payment_image_paypal.png"}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url="wysiwyg/paypal/payment_image_visa.png"}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url="wysiwyg/paypal/payment_image_mastercard.png"}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url="wysiwyg/paypal/payment_image_maestro.png"}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url="wysiwyg/paypal/payment_image_discover.png"}}" alt="" /></a></li>
+</ul>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 1]]></title><identifier>block_home_one_1</identifier><content><![CDATA[<div class="fluid-width block_home_one_1 home-3-banners row">
+
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="overlay">
+<div class="banner-hover">
+<div class="title-1">3DAY SUPPER</div>
+<br />
+<div class="title-2">SAVE UP</div>
+<div class="title-3">90<span>%</span></div>
+<div class="title-4"><a href="#"><i class="fa fa-shopping-cart"></i><span>Shop now</span></a></div>
+<div class="title-5"><img src="{{media url="wysiwyg/bazien/title-banner-h1.png"}}" alt="" /></div>
+</div>
+<img src="{{media url="wysiwyg/bazien/bazien-banner-h1-1.jpg"}}" alt="" />
+</div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="overlay">
+<div class="banner-hover-1">
+<div class="title-1">MEGA SALE</div>
+<div class="title-2">UP TO 70%</div>
+<div class="title-3"><a href="#">SHOPPING NOW</a></div>
+</div>
+<img src="{{media url="wysiwyg/bazien/bazien-banner-h2-1.jpg"}}" alt="" />
+</div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="overlay">
+<div class="banner-hover-2">
+<div class="title-1">Sale !</div>
+<div class="title-2"><p>10% off all products</p></div>
+</div>
+<img src="{{media url="wysiwyg/bazien/bazien-banner-h3-1.jpg"}}" alt="" />
+</div>
+</div>
+
+</div> ]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 2]]></title><identifier>block_home_one_2</identifier><content><![CDATA[<div class="block_home_one_2">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-25">
+<div class="arw-title">
+<h2><span><span>NEW TREDNS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-5 tab_style_1">{{widget type="producttab/producttab" identifier="new_trending" tab_identifier="new-arrival,women,kid,men" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 3]]></title><identifier>block_home_one_3</identifier><content><![CDATA[<div class="fluid-width block_home_one_3">
+    <div class="col-lg-12" style="padding: 0;">
+        <div class="banner2-h1">
+            <img src="{{media url="wysiwyg/bazien/banner2_1-h1.jpg"}}" alt="" />
+            <div class="title-content">
+                <div class="triangle-1"><img src="{{media url="wysiwyg/bazien/tamgiac.png"}}" alt="" /></div>
+                <p class="reasons">11 Reasons You Might Be a Hipster</p>
+                <a href=" " class="btn2">DISCOVER NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding: 0;">
+        <div class="banner2-h1">
+            <img src="{{media url="wysiwyg/bazien/banner2_2-h1.jpg"}}" alt="" />
+            <div class="title-content">
+                <p class="lookbook-1">Lookbook Herbst Winter 2015</p>
+                <p class="textcon">Für das Lookbook Herbst Winter 2012 holten sie sich das dänische Model<br> Freja Beha Erichsen an Bord. Die sehr stimmungsvollen Bilder lassen uns<br> schon beinahe ...</p>
+                <a href=" " class="btn2">JOIN NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding: 0;">
+        <div class="banner2-h1">
+            <img src="{{media url="wysiwyg/bazien/banner2_3-h1.jpg"}}" alt="" />
+            <div class="title-content">
+                <p class="paris">PARIS</p>
+                <p class="mounthyear">03 / 2015</p>
+                <a href=" " class="btn2">PURCHASES</a>
+            </div>
+        </div>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 4]]></title><identifier>block_home_one_4</identifier><content><![CDATA[<div class="block_home_one_4">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-30">
+<div class="arw-title">
+<h2><span><span>BEST SELLERS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-5 tab_style_1">{{widget type="producttab/producttab" identifier="new_trending" tab_identifier="arrival,men1,women1,shoe" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 5]]></title><identifier>block_home_one_5</identifier><content><![CDATA[<div class="fluid-width block_home_one_5">
+    <div class="col-lg-12" style="padding: 0;">
+        <div class="banner3-h1">
+            <img src="{{media url="wysiwyg/bazien/banner3-h1.jpg"}}" alt="" />
+            <div class="title-content">
+                <div class="line-banner3"></div>
+                <p class="manchester">We’re a design & digital suit based in<br> Manchester. We deliver beautifully<br> crafted projects with passion.</p>
+                <a href=" " class="btn">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 6]]></title><identifier>block_home_one_6</identifier><content><![CDATA[<div class="block_home_one_6">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-top-55 padding-bottom-60">
+<div class="arw-title">
+<h2><span><span>LATEST BLOGS</span></span></h2>
+<div class="line-middle"></div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+</div>
+<div>{{widget type="blog/last" blocks_count="2" categories="1" column="2"}}</div>
+<div class="loadblog-be">
+<a href="{{store direct_url="blog"}}" class="loadblog">Load more Blog<i class="fa fa-angle-down"></i>
+</a>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 7]]></title><identifier>block_home_one_7</identifier><content><![CDATA[<div class="fluid-width block_home_one_7">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/paralax-newletter-h1.jpg" box_height="240" block_id="block_newsletter"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home One 8]]></title><identifier>block_home_one_8</identifier><content><![CDATA[<div class="block_home_one_8 margin-top-55 margin-bottom-55">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{widget type="brand/brand_widget" template="arw/brand/widget/default.phtml" title="Home Brands" ids="1,2,3,4,5,6,9,10" show_widget_as="slider" infinite="1" slides_to_show="6" slides_to_scroll="2" speed="300" autoplay="1" autoplaySpeed="3000"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 1]]></title><identifier>block_home_two_1</identifier><content><![CDATA[<div class="home-two-banner1">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-12 col-xs-12 banner-two-1">
+<div class="overlay">
+<div class="banner-hover">
+<h2>WHAT NEWS ?</h2>
+<h4>Wildfox Spring 2015 Lookbook</h4>
+<a href="#">SHOP NOW</a></div>
+<img src="{{media url="wysiwyg/bazien/banner1-1-h2.jpg"}}" alt="" /></div>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 banner-two-2">
+<div class="overlay">
+<div class="banner-hover">
+<h4>NEW<br />ARRIVALS</h4>
+</div>
+<img src="{{media url="wysiwyg/bazien/banner1-2-h2.jpg"}}" alt="" /></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-5 col-sm-12 col-xs-12 banner-two-3">
+<div class="overlay">
+<div class="banner-hover">
+<h4>MEGA SALE</h4>
+<h2>FREE SHIP</h2>
+</div>
+<img src="{{media url="wysiwyg/bazien/banner1-3-h2.jpg"}}" alt="" /></div>
+</div>
+<div class="col-md-7 col-sm-12 col-xs-12 banner-two-4">
+<div class="overlay">
+<div class="banner-hover">
+<h2>SALE UP 70%</h2>
+</div>
+<img src="{{media url="wysiwyg/bazien/banner1-4-h2.jpg"}}" alt="" /></div>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 2]]></title><identifier>block_home_two_2</identifier><content><![CDATA[<div class="block_home_two_2">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-20">
+<div class="arw-title">
+<h2><span><span>NEW TREDNS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-5 tab_style_1">{{widget type="producttab/producttab" identifier="new_trending" tab_identifier="new-arrival,women,kid,men" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 3]]></title><identifier>block_home_two_3</identifier><content><![CDATA[<div class="home-two-banner2 block_home_two_3">
+<div class="row">
+<div class="col-md-4 col-sm-12">
+<div class="content">
+<div class="banner-hover">
+<i class="fa fa-usd"></i>
+<h4>SAVE AN EXTRA</h4>
+<p>Reduce child mortality carbon right</p>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb34.jpg"}}" alt="" />
+</div>
+</div>
+<div class="col-md-4 col-sm-12">
+<div class="content">
+<div class="banner-hover">
+<i class="fa fa-rocket"></i>
+<h4>FREE SHIPPING OVER $50</h4>
+<p>Reduce child mortality </p>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb34.jpg"}}" alt="" />
+</div>
+</div>
+<div class="col-md-4 col-sm-12">
+<div class="content">
+<div class="banner-hover">
+<i class="fa fa-heart-o"></i>
+<h4>ONLINE SUPPORT 24/7</h4>
+<p>Reduce child mortality carbon right</p>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb34.jpg"}}" alt="" />
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 4]]></title><identifier>block_home_two_4</identifier><content><![CDATA[<div class="block_home_two_4">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tab_style_3 product-tab-list-mini">{{widget type="producttab/producttab" identifier="top_sellers" tab_identifier="mini_top_sellers_fashion" template="arw/producttab/producttab.phtml"}}</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tab_style_3 product-tab-list-mini">{{widget type="producttab/producttab" identifier="sales_off" tab_identifier="mini_sales_off_fashion" template="arw/producttab/producttab.phtml"}}</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tab_style_3 product-tab-list-mini">{{widget type="producttab/producttab" identifier="top_rated" tab_identifier="mini_top_rated_fashion" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 5]]></title><identifier>block_home_two_5</identifier><content><![CDATA[<div class="fluid-width block_home_two_5">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="arw_tab_title blog_tab_title">
+				<div class="arw-title">
+                                        <h2>
+                                        <span>
+					<span>LOOK BOOK</span></span></h2>
+					<div class="line-middle"> </div>
+				</div>
+				<div class="arw-sub-title">
+					<span class="title">Most Trendy Clothes</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider_banner_4">
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6">
+
+				<div class="row content-1">
+
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="row content-2">
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6">
+
+				<div class="row content-3">
+
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="row content-4">
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6">
+
+				<div class="row content-1">
+
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="row content-2">
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6">
+
+				<div class="row content-3">
+
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="row content-4">
+					<div class="col-md-6 col-sm-6 content-left">
+					</div>
+
+					<div class="col-md-6 col-sm-6 content-right">
+						<div class="content-inner">
+							<h4>Bright Young Things</h4>
+							<h3>Zara September October 2015</h3>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+							<a href="#">DISCOVER</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 6]]></title><identifier>block_home_two_6</identifier><content><![CDATA[<div class="block_home_two_6">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-top-50 padding-bottom-55">
+<div class="arw-title">
+<h2><span><span>LATEST BLOGS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+</div>
+<div>{{widget type="blog/last" blocks_count="2" categories="1" column="2"}}</div>
+<div class="loadblog-be"><a class="loadblog" href="{{store direct_url="blog"}}">Load more Blog<i class="fa fa-angle-down"></i> </a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 7]]></title><identifier>block_home_two_7</identifier><content><![CDATA[<div class="fluid-width block_home_two_7">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/paralax-newletter-h1.jpg" box_height="240" block_id="block_newsletter"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Two 8]]></title><identifier>block_home_two_8</identifier><content><![CDATA[<div class="block_home_two_8 margin-top-55 margin-bottom-55">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{widget type="brand/brand_widget" template="arw/brand/widget/default.phtml" title="Home Brands" ids="1,2,3,4,5,6,9,10" show_widget_as="slider" infinite="1" slides_to_show="6" slides_to_scroll="4" speed="300" autoplay="1" autoplaySpeed="3000"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Header Oder]]></title><identifier>block_header_oder</identifier><content><![CDATA[<h2>FREESHIPPING ALL ODER</h2>
+<p>(+91) 0123 456 789
+</p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 1]]></title><identifier>block_home_three_1</identifier><content><![CDATA[<div class="fluid-width block_home_three_1">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-55">
+<div class="arw-title">
+<h2><span><span>NEW TREDNS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-5 tab_style_1">{{widget type="producttab/producttab" identifier="new_trending" tab_identifier="home3-newarrival,home3-men,home3-women,home3-kid" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 2]]></title><identifier>block_home_three_2</identifier><content><![CDATA[<div class="fluid-width block_home_three_2 home-three-parallax">
+{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/thumb30.jpg" box_height="442" block_id="content_three_2_1"}}
+{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/thumb31.jpg" box_height="442" block_id="content_three_2_2"}}
+{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/thumb32.jpg" box_height="442" block_id="content_three_2_3"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Content Three 2 1]]></title><identifier>content_three_2_1</identifier><content><![CDATA[<p>FROM <span>59.00</span> USD</p>
+<h2>CHECKED SHIRT</h2>
+<a href="#">Shopping Now</a>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Content Three 2 2]]></title><identifier>content_three_2_2</identifier><content><![CDATA[<p>FROM <span>199.00</span> USD</p>
+<h2>DAVID KITZ 3</h2>
+<a href="#">Shopping Now</a>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Content Three 2 3]]></title><identifier>content_three_2_3</identifier><content><![CDATA[<p>FROM <span>199.00</span> USD</p>
+<h2>SLOGAN HAT</h2>
+<a href="#">Shopping Now</a>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 3]]></title><identifier>block_home_three_3</identifier><content><![CDATA[<div class="home-three-services block_home_three_3">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+		<div class="arw_tab_title blog_tab_title">
+				<div class="arw-title">
+                                        <h2>
+                                        <span>
+					<span>BEST SERVICES</span></span></h2>
+					<div class="line-middle"> </div>
+				</div>
+				<div class="arw-sub-title">
+					<span class="title">Most Trendy Clothes</span>
+				</div>
+			</div>
+	</div>
+<div class="col-md-4 col-sm-4">
+<div class="icon-services"><i class="fa fa-gift"></i></div>
+<h4>FREE SHIPPING ALL ODER</h4>
+<p>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia</p>
+</div>
+<div class="col-md-4 col-sm-4">
+<div class="icon-services"><i class="fa fa-thumbs-o-up"></i></div>
+<h4>TRANSACTION SAVE</h4>
+<p>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia</p>
+</div>
+<div class="col-md-4 col-sm-4">
+<div class="icon-services"><i class="fa fa-life-ring"></i></div>
+<h4>SUPPORT ONLINE 24/7</h4>
+<p>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia</p>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 4]]></title><identifier>block_home_three_4</identifier><content><![CDATA[<div class="block_home_three_4">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-top-55 padding-bottom-55">
+<div class="arw-title">
+<h2><span><span>FASHION NEWS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+</div>
+<div>{{widget type="blog/last" blocks_count="4" categories="1,8" column="4"}}</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 5]]></title><identifier>block_home_three_5</identifier><content><![CDATA[<div class="fluid-width block_home_three_5 home-three-5">
+    {{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/thumb33.jpg" box_height="421" block_id="content_three_5_1"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 6]]></title><identifier>block_home_three_6</identifier><content><![CDATA[<div class="fluid-width block_home_three_6">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/paralax-newletter-h1.jpg" box_height="240" block_id="block_newsletter"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Three 7]]></title><identifier>block_home_three_7</identifier><content><![CDATA[<div class="block_home_three_7 margin-top-55 margin-bottom-55">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{widget type="brand/brand_widget" template="arw/brand/widget/default.phtml" title="Home Brands" ids="1,2,3,4,5,6,9,10" show_widget_as="slider" infinite="1" slides_to_show="6" slides_to_scroll="4" speed="300" autoplay="1" autoplaySpeed="3000"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Content Three 5 1]]></title><identifier>content_three_5_1</identifier><content><![CDATA[<div class="container">
+<div class="col-md-4 col-sm-4">
+<h4 class="title">WHAT CLIENT SAY ?</h4>
+</div>
+<div class="col-md-8 col-sm-8">
+<div class="slider_testimonial">
+<div class="item">
+<img src="{{media url="wysiwyg/bazien/thumb50.png"}}" alt="" />
+<p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a as opposed to using 'Content here, content here'.”</p>
+<h4>TYRION LANNISTER</h4>
+<h5>VICTORIA SECRET MAGAZINE</h5>
+</div>
+
+<div class="item">
+<img src="{{media url="wysiwyg/bazien/thumb50.png"}}" alt="" />
+<p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a as opposed to using 'Content here, content here'.”</p>
+<h4>TYRION LANNISTER</h4>
+<h5>VICTORIA SECRET MAGAZINE</h5>
+</div>
+
+<div class="item">
+<img src="{{media url="wysiwyg/bazien/thumb50.png"}}" alt="" />
+<p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a as opposed to using 'Content here, content here'.”</p>
+<h4>TYRION LANNISTER</h4>
+<h5>VICTORIA SECRET MAGAZINE</h5>
+</div>
+
+<div class="item">
+<img src="{{media url="wysiwyg/bazien/thumb50.png"}}" alt="" />
+<p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a as opposed to using 'Content here, content here'.”</p>
+<h4>TYRION LANNISTER</h4>
+<h5>VICTORIA SECRET MAGAZINE</h5>
+</div>
+
+<div class="item">
+<img src="{{media url="wysiwyg/bazien/thumb50.png"}}" alt="" />
+<p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a as opposed to using 'Content here, content here'.”</p>
+<h4>TYRION LANNISTER</h4>
+<h5>VICTORIA SECRET MAGAZINE</h5>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 1]]></title><identifier>block_home_four_1</identifier><content><![CDATA[<div class="col-banner-main-4 block_home_four_1">
+<div class="container">
+<div class="col-banner-3">
+<div class="overlay">
+<div class="banner-hover">
+<h3>Kid’s Store</h3>
+<span></span>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb40.jpg"}}" alt="" />
+</div>
+</div>
+<div class="col-banner-3">
+<div class="col-banner-6">
+<div class="overlay">
+<div class="banner-hover">
+<h3>Kid’s Store</h3>
+<span></span>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb41.jpg"}}" alt="" />
+</div>
+</div>
+<div class="col-banner-6">
+<div class="overlay">
+<div class="banner-hover">
+<h3>Kid’s Store</h3>
+<span></span>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb42.jpg"}}" alt="" />
+</div>
+</div>
+</div>
+<div class="col-banner-3">
+<div class="overlay">
+<div class="banner-hover">
+<h3>Kid’s Store</h3>
+<span></span>
+</div>
+<img src="{{media url="wysiwyg/bazien/thumb43.jpg"}}" alt="" />
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 2]]></title><identifier>block_home_four_2</identifier><content><![CDATA[<div class="block_home_four_2">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-35">
+<div class="arw-title">
+<h2><span><span>NEW TREDNS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-5 tab_style_1">{{widget type="producttab/producttab" identifier="new_trending" tab_identifier="new-arrival,women,kid,men" template="arw/producttab/producttab.phtml"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Now Instore]]></title><identifier>block_now_instore</identifier><content><![CDATA[<div class="home4-every">
+<h4>Every Third Item Is Free</h4>
+<h2>SPRING/SUMMER 2015 CAMPAIGN</h2>
+<p><span>NOW</span><br />INSTORE</p>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 3]]></title><identifier>block_home_four_3</identifier><content><![CDATA[<div class="fluid-width block_home_four_3">
+    {{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/parallax-home4-1.jpg" box_height="369" block_id="block_now_instore"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 4]]></title><identifier>block_home_four_4</identifier><content><![CDATA[<div class="home4-about block_home_four_4">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<img src="{{media url="wysiwyg/bazien/about-home4-1.jpg"}}" alt="" />
+</div>
+<div class="col-md-6 col-sm-6">
+<h4>Bright Young Things</h4>
+<h2>ABOUT BAZIEN STORE</h2>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+<a class="btn" href="#">READMORE</a>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 5]]></title><identifier>block_home_four_5</identifier><content><![CDATA[<div class="block_home_four_5">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-top-50 padding-bottom-55">
+<div class="arw-title">
+<h2><span><span>FASHION NEWS</span></span></h2>
+<div class="line-middle">&nbsp;</div>
+</div>
+<div class="arw-sub-title"><span>Most Trendy Clothes</span></div>
+</div>
+</div>
+<div>{{widget type="blog/last" blocks_count="4" categories="1" column="4"}}</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 6]]></title><identifier>block_home_four_6</identifier><content><![CDATA[<div class="fluid-width block_home_four_6 margin-top-20">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/paralax-newletter-h1.jpg" box_height="240" block_id="block_newsletter"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Four 7]]></title><identifier>block_home_four_7</identifier><content><![CDATA[<div class="block_home_four_7 margin-top-55 margin-bottom-55">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{widget type="brand/brand_widget" template="arw/brand/widget/default.phtml" title="Home Brands" ids="1,2,3,4,5,6,9,10" show_widget_as="slider" infinite="1" slides_to_show="6" slides_to_scroll="4" speed="300" autoplay="1" autoplaySpeed="3000"}}</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Home Five 2]]></title><identifier>home_five2</identifier><content><![CDATA[<div class="block-home-five-1">
+<h2>NEW LOOKBOOK 2015</h2>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum(injected humour and the like).</p>
+<a href="#"></a>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Home Five 3]]></title><identifier>home_five3</identifier><content><![CDATA[<div class="block-home-five-2">
+<h2>autumn winter 2014/2015</h2>
+<a href="#">SHOP NOW<i class="fa fa-angle-right"></i></a>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Home Five 4]]></title><identifier>home_five4</identifier><content><![CDATA[<div class="block-home-five-3">
+<h2>thick beard MEMES Pictures</h2>
+<a href="#">SHOP NOW<i class="fa fa-angle-right"></i></a>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Five 2]]></title><identifier>block_home_five_2</identifier><content><![CDATA[<div class="fluid-width block_home_five_1 block_home_five">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/parallax-home5-1.jpg" box_height="900" block_id="home_five2"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Five 3]]></title><identifier>block_home_five_3</identifier><content><![CDATA[<div class="fluid-width block_home_five_2 block_home_five">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/parallax-home5-2.jpg" box_height="900" block_id="home_five3"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Five 4]]></title><identifier>block_home_five_4</identifier><content><![CDATA[<div class="fluid-width block_home_five_3 block_home_five">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/parallax-home5-3.jpg" box_height="900" block_id="home_five4"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Six 1]]></title><identifier>block_home_six_1</identifier><content><![CDATA[<div class="block_home_six_1">
+	<div class="content">
+		<div class="content-inner-1">
+			<div class="text-inner">
+				<h2>Autumn winter 2014/2015</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb60.jpg"}}" alt="" />
+		</div>
+		<div class="content-inner-2">
+			<div class="text-inner">
+				<h2>New collections</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb61.jpg"}}" alt="" />
+		</div>
+	</div>
+	<div class="content">
+		<div class="content-inner-3">
+			<div class="text-inner">
+				<h2>New lookbook</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb62.jpg"}}" alt="" />
+		</div>
+		<div class="content-inner-4">
+			<div class="text-inner">
+				<h2>Coat store</h2>
+				<a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb63.jpg"}}" alt="" />
+		</div>
+		<div class="content-inner-5">
+			<div class="text-inner">
+				<h2>Watch</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb64.jpg"}}" alt="" />
+		</div>
+	</div>
+	<div class="content">
+		<div class="content-inner-6">
+			<div class="text-inner">
+				<h2>Nuru the light: bags from Zara</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb65.jpg"}}" alt="" />
+		</div>
+		<div class="content-inner-7">
+			<div class="text-inner">
+				<h2>Zara spring 2015 shoes</h2>
+                                <a href="#">SHOPPING NOW</a>
+			</div>
+			<img src="{{media url="wysiwyg/bazien/thumb66.jpg"}}" alt="" />
+		</div>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Home Five 1]]></title><identifier>home_five1</identifier><content><![CDATA[<div class="block-home-five-2">
+<h2>May 15 TRF Lookbook</h2>
+<a href="#">SHOP NOW<i class="fa fa-angle-right"></i></a>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Home Five 1]]></title><identifier>block_home_five_1</identifier><content><![CDATA[<div class="fluid-width block_home_five_1 block_home_five">
+	{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/parallax-home5-0.jpg" box_height="900" block_id="home_five1"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Footer home 6]]></title><identifier>block_footer_home_6</identifier><content><![CDATA[<div class="copyright_home6">
+        <span>&copy; 2015 Magento Bazien Store. All Rights Reserved. Powered by <a href="http://mentothemes.com/" title="MentoThemes">Novaworks</a></span>
+    </div>
+    <div class="footer-home-6">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-behance"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-pinterest"></i></a>
+    </div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Custom HTML]]></title><identifier>block_custom_slidebar_2</identifier><content><![CDATA[<div class="block block-custom-html">
+<div id="custom-html" class="block-title">
+        <strong><span>STATIC BLOCK</span></strong>
+</div>
+<div class="block-content">
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+<div classs="images-block"><img src="{{media url="wysiwyg/bazien/custom-html.jpg"}}" alt="" /></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Contact Us]]></title><identifier>block_contact_top</identifier><content><![CDATA[{{widget type="customwidgets/widget_map" address="Hanoi" map_height="400" map_type="roadmap" map_zoom="14" map_saturation="color" full_screen="yes"}}
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Contact Us Content]]></title><identifier>block_contact_content</identifier><content><![CDATA[<div class="contact_content_title"><span>Our location</span></div>
+<div class="contact_content_text">
+    <p class="address">Address: Your address</p>
+    <p class="email">Email address: youremail@gmail.com</p>
+    <p class="telephone">Telephone: 0123456789</p>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[About Us Content]]></title><identifier>block_about_content_paralax</identifier><content><![CDATA[<div class="block_about_content_paralax">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box addmargin-bot">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-lemon-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">WEB DESIGN</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box addmargin-bot">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-camera-retro"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">PHOTOGRAPHY</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box addmargin-bot">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">WEB DEVELOPMENT</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box addmargin-bot">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-bicycle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">MOTION GRAPHIC</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-life-bouy"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">UX/UI DESIGN</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-file-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">SEO ONLINE</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-suitcase"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">3D MODEL</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12 about-us-info-box">
+                <div class="aio-icon-top">
+                    <div class="ult-just-icon-wrapper">
+                        <div class="aio-icon advanced" style="color:#202020;background:#ffffff;border-style:;border-color:#333333;border-width:1px;width:90px;height:90px;line-height:90px;border-radius:0;font-size:30px;display:inline-block;">
+                            <i class="fa fa-download"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aio-icon-header">
+                    <h3 class="aio-icon-title">CONCEPT ART</h3>
+                </div>
+                <div class="aio-icon-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+            </div>
+        </div>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[About Us Content Paralax]]></title><identifier>block_about_paralax</identifier><content><![CDATA[<div class="fluid-width block_about_paralax">{{widget type="customwidgets/widget_parallax" image="wysiwyg/bazien/about_us_parallax.jpg" box_height="844" block_id="block_about_content_paralax"}}
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[About Us Content Client Say]]></title><identifier>block_about_client_say</identifier><content><![CDATA[<div class="block_about_client_say">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="content-client-say testimonial_list_item_inner">
+                    <div class="testimonial_thumbnail">
+<img src="{{media url="wysiwyg/bazien/about-1.jpg"}}" alt="" />
+                    </div>
+                    <div class="testimonial_text">
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ”
+                    </div>
+                    <div class="testimonial_author"> JAMES LANNISTER </div>
+                    <div class="title_position">
+                        <span> CEO/Founder Apple Inc </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="content-client-say testimonial_list_item_inner">
+                    <div class="testimonial_thumbnail">
+<img src="{{media url="wysiwyg/bazien/about-2.jpg"}}" alt="" />
+                    </div>
+                    <div class="testimonial_text">
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ”
+                    </div>
+                    <div class="testimonial_author"> JAMES LANNISTER </div>
+                    <div class="title_position">
+                        <span> CEO/Founder Apple Inc </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="content-client-say testimonial_list_item_inner">
+                    <div class="testimonial_thumbnail">
+<img src="{{media url="wysiwyg/bazien/about-3.jpg"}}" alt="" />
+                    </div>
+                    <div class="testimonial_text">
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ”
+                    </div>
+                    <div class="testimonial_author"> JAMES LANNISTER </div>
+                    <div class="title_position">
+                        <span> CEO/Founder Apple Inc </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="content-client-say testimonial_list_item_inner">
+                    <div class="testimonial_thumbnail">
+<img src="{{media url="wysiwyg/bazien/about-4.jpg"}}" alt="" />
+                    </div>
+                    <div class="testimonial_text">
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ”
+                    </div>
+                    <div class="testimonial_author"> JAMES LANNISTER </div>
+                    <div class="title_position">
+                        <span> CEO/Founder Apple Inc </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Block Collection]]></title><identifier>block_collection</identifier><content><![CDATA[<div class="menu-colection">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>WOMEN COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb102.jpg"}}" alt="" />
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>MEN’S COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb103.jpg"}}" alt="" />
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>KIDS COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb104.jpg"}}" alt="" />
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>SHOES COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb105.jpg"}}" alt="" />
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>BAGS COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb106.jpg"}}" alt="" />
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="overlay">
+				<div class="banner-hover">
+					<h2>PERFUME COLLECTION</h2>
+					<a href="#">SHOP NOW<i class="fa fa-long-arrow-right"></i></a>
+				</div>
+				<img src="{{media url="wysiwyg/bazien/thumb107.jpg"}}" alt="" />
+			</div>
+		</div>
+	</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block></blocks></root>
